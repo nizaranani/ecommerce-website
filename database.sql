@@ -44,7 +44,4 @@ INSERT INTO products (nom, description, prix, stock, categorie_id) VALUES
 ('Laptop Dell', 'Ordinateur portable performant', 8500.00, 5, 1),
 ('Pantalon Jean', 'Jean bleu classique coupe droite', 350.00, 30, 2);
 
--- Compte admin (mot de passe: admin123)
--- Le hash ci-dessous correspond a admin123 avec password_hash() PHP
-INSERT INTO users (nom, email, mot_de_passe, role) VALUES
-('nizar', 'nizar@shop.com','nizaranani', 'admin');
+
